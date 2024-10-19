@@ -23,189 +23,120 @@
         <div class="reveal">
             <div class="slides">
                 <section>
-                    <h1>Beautiful presentations</h1>
-                    <h2>New features</h2>
-                    <ul>
-                        <li>Nerd icons </li>
-                        <li>
-                            <code class="js">
-                                (inline) => code("highlighting")
-                            </code>
-                        </li>
-                        <li>Automatic QR Code generation</li>
-                        <li>and much more!</li>
-                    </ul>
-                </section>
-                <section>
-                    <h1>CUSTOM TOKYONIGHT THEME</h1>
-                    <h2 class="fragment">THAT HAS</h2>
-                    <h3 class="fragment">MULTI</h3>
-                    <h4 class="fragment">LEVEL</h4>
-                    <h5 class="fragment">HEADING</h5>
-                    <h6 class="fragment">COLORS</h6>
-                    <h6>
-                        Thanks to this project
-                        <a
-                            href="https://github.com/tcmmichaelb139/obsidian-tokyonight">
-                            
-                        </a>
-                        for the colorscheme!
-                    </h6>
-                </section>
-                <section>
-                    <section>
-                        <h1>Tailwind CSS</h1>
-                        <div class="grid grid-cols-2 gap-8">
-                            <div>
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                            <div>
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                            <div class="col-span-2">
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <h1>Custom classes</h1>
-                        <div class="grid grid-cols-3 gap-8">
-                            <div class="border-r">
-                                <h5>border-r</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                            <div class="border-o">
-                                <h5>border-o</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                            <div class="border-y">
-                                <h5>border-y</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </section>
-                <section>
-                    <section data-auto-animate>
-                        <h1>New code highlighting!</h1>
-                        <div>
-                            Now also has Tokyo Night
-                            <code>highlight.js</code>
-                            highlighting implementation
-                        </div>
-                        <pre><code data-trim data-noescape>
-var foo = {
-    bar: function () {
-             alert("Hello, World!");
-         }
-};	
-					</code></pre>
-                    </section>
-                    <section data-auto-animate>
-                        <h1>New code highlighting!</h1>
-                        <h5>Inline code highlighting is now also supported!</h5>
-                        <p>
-                            Just wrap your code with
-                            <code>&lt;code&gt;</code>
-                            tag and get highlighting like this
-                            <code class="js">
-                                const foo = () => {return bar}
-                            </code>
-                            !
-                        </p>
-                    </section>
-                </section>
-                <section>
-                    <h1>Mermaid for beautiful diagrams!</h1>
-                    <div class="mermaid">
-                        <pre>
-						erDiagram
-    CUSTOMER ||--o{ ORDER : ""
-    CUSTOMER {
-        string name
-        string custNumber
-        string sector
-    }
-    ORDER ||--|{ LINE-ITEM : contains
-    ORDER {
-        int orderNumber
-        string deliveryAddress
-    }
-    LINE-ITEM {
-        string productCode
-        int quantity
-        float pricePerUnit
-    }
-    ORDER ||--|{ STUDENT : contains
-    STUDENT {
-        int orderNumber
-        string deliveryAddress
-    }
-						</pre
-                        >
-                    </div>
-                    <h4>
-                        Check documentation
-                        <a href="https://mermaid.js.org/config/usage.html">
-                            here
-                        </a>
-                        !
-                    </h4>
-                </section>
-                <section>
-                    <h1>Now supports Nerd font icons!</h1>
-                    <div>Nerdy project that adds icons to font itself</div>
-                    <h6>
-                        Checkout their site for icons like this
-                        <a href="https://www.nerdfonts.com/">󰖟</a>
-                        !
-                    </h6>
-                </section>
-                <section>
-                    <h1>Now supports automatic QRCode generation!</h1>
-                    <div>
-                        With GoQR you can just add data-type and alt attributes
-                        to your
-                        <code class="html">
-                            &lt;img src="https://goqr.me/" data-type="qrcode" /
-                            &gt;
-                        </code>
-                        tag!
-                    </div>
+                    <h1>Рекурсия</h1>
                     <img
                         class="r-stretch"
-                        src="https://goqr.me/"
+                        src="https://ktkv-presentations.github.io/algos-18"
                         data-type="qrcode" />
                 </section>
                 <section>
-                    <h1>New changes on the way!</h1>
+                    <section>
+                        <h1>Рекурсия</h1>
+                        <p>
+                            метод решения задачи, при котором функция вызывает
+                            саму себя для решения подзадачи
+                        </p>
+                        <div class="border-r">
+                            <h4>Особенность рекурсии</h4>
+                            <p>
+                                наличие одного или нескольких условий выхода
+                                (базовых случаев), которые останавливают
+                                дальнейшие рекурсивные вызовы.
+                            </p>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Принцип работы рекурсивных функций</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h3>Базовый случай</h3>
+                                <h4>(условие выхода)</h4>
+                                <p>
+                                    условие, при котором рекурсия прекращается
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h3>Рекурсивный случай</h3>
+                                <p>
+                                    часть, где функция вызывает саму себя с
+                                    изменёнными параметрами для приближения к
+                                    базовому случаю
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Пример базового рекурсивного алгоритма</h1>
+                        <pre><code data-trim data-noescape data-line-numbers class="python">
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+                        </code></pre>
+                    </section>
+                    <section></section>
+                </section>
+                <section>
+                    <section data-auto-animate>
+                        <h1>Области применения рекурсии</h1>
+                        <h4>Сортировка данных</h4>
+                        <pre
+                            class="r-stretch"><code data-trim data-noescape data-line-numbers class="python">
+def quicksort(arr):
+    if len(arr) &lt;= 1:
+        return arr
+    else:
+        pivot = arr[0]
+        less = [x for x in arr[1:] if x &lt;= pivot]
+        greater = [x for x in arr[1:] if x &gt; pivot]
+        return quicksort(less) + [pivot] + quicksort(greater)  # рекурсивный случай
+                        </code></pre>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Области применения рекурсии</h1>
+                        <h4>Обработка рекурсивных математических структур</h4>
+                        <pre
+                            class="r-stretch"><code data-trim data-noescape data-line-numbers class="python">
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Преимущества рекурсии</h1>
+                        <ul>
+                            <li>
+                                Упрощает решение сложных задач, позволяя их
+                                выразить в краткой и понятной форме
+                            </li>
+                            <li>
+                                Подходит для задач, где данные или структура
+                                задачи имеют иерархическую или повторяющуюся
+                                природу
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h1>Недостатки рекурсии</h1>
+                        <ul>
+                            <li>
+                                Может привести к переполнению стека (Stack
+                                Overflow) при больших глубинах рекурсии
+                            </li>
+                            <li>
+                                В некоторых случаях рекурсивные алгоритмы менее
+                                эффективны по времени и памяти, чем итерационные
+                                решения
+                            </li>
+                        </ul>
+                    </section>
                 </section>
             </div>
         </div>
@@ -396,4 +327,3 @@ var foo = {
         </script>
     </body>
 </html>
-
